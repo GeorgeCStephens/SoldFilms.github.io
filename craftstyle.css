@@ -1,0 +1,154 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #000;
+}
+
+header
+{
+	padding: 10px 100px;
+	box-sizing: border-box;
+}
+
+header img
+{
+	width: 5%;
+	height: 5%;
+}
+
+header h1
+{
+	float: right;
+	font-size: 4em;
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+
+}
+section
+{
+	width: 100%;
+	height: 100vh;
+
+}
+
+section.sec1
+{
+	background: url(https://pro2-bar-s3-cdn-cf3.myportfolio.com/a6eff65d9c1a3231d39236064bf4c7ca/e9ccbca5-6a06-4a8e-9ebe-6724be00293a_rw_1200.png?h=6213791ea649beea6424b4176442f051);
+	background-size: cover;	
+}
+
+section.sec2
+{
+	padding: 100px;
+	box-sizing: border-box;
+	height: auto;
+}
+
+section.sec2 h2
+{
+	font-size: 3em;
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+}
+
+section.sec2 p
+{
+	font-size: 1.4em;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+section.sec3
+{
+	background: url(https://pro2-bar-s3-cdn-cf5.myportfolio.com/a6eff65d9c1a3231d39236064bf4c7ca/66e3c11f-5e50-4641-9784-76ae4cf1b202_rw_1200.png?h=11809e34060b0b9de1e7dfced748436b);
+	background-size: cover;	
+}
+
+nav
+{
+	min-width: 480px
+	width: 100%;
+	height: 50px;
+	background: rgb(0, 0, 0, .8);
+	border-top: 1px solid rgba(255, 255, 255, .2);
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+	position: sticky;
+	top: 0;
+
+
+}
+
+nav ul 
+{
+	display: flex;
+	margin: 0;
+	padding: 0 100px;
+	float: right;
+}
+
+nav ul li
+{
+	list-style: none; 
+}
+
+nav ul li a 
+{
+	display: block;
+	color: #fff;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+nav ul li a:hover,
+nav ul li a.active
+{
+	background: #0800FF;
+
+
+}
+
+footer
+{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	border-top: 3px solid #000;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+	position: sticky;
+	top: 0;
+
+
+}
+
+footer ul 
+{
+	display: flex;
+	margin: 0;
+	padding-left: : 10px;
+	padding-top: 10px;
+}
+
+footer ul li 
+{
+	list-style: none; 
+	display: block;
+	padding: 0 0 0 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+footer ul li img 
+{
+	width: 35px;
+	height:35px;
+}
